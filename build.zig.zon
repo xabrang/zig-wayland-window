@@ -1,0 +1,16 @@
+.{
+    .name = "zig-wayland-window",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .@"zig-wayland" = .{
+            .url = "https://codeberg.org/ifreund/zig-wayland/archive/v0.2.0.tar.gz",
+            .hash = "1220687c8c47a48ba285d26a05600f8700d37fc637e223ced3aa8324f3650bf52242",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
